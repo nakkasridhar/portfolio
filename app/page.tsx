@@ -96,7 +96,7 @@ export default function Portfolio() {
         <h2 className="text-2xl font-semibold mb-4">Contact</h2>
         <p>Email: nakkasridhar@gmail.com</p>
         <p>LinkedIn: <a className="text-blue-600" href="https://www.linkedin.com/in/sridhar-nakka-7b678217" target="_blank">Sridhar Nakka</a></p>
-        <p>GitHub: <a className="text-blue-600" href="https://github.com/sridhar-nakka" target="_blank">sridhar-nakka</a> (Optional)</p>
+        <p>GitHub: <a className="text-blue-600" href="https://github.com/sridhar-nakka" target="_blank">sridhar-nakka</a> </p>
       </section>
     </div>
   );
