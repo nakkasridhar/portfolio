@@ -96,6 +96,16 @@ export default function Portfolio() {
           <a href="https://www.linkedin.com/in/sridhar-nakka-7b678217" target="_blank" style={{color:"#2d5c9f"}}>LinkedIn</a> ·{" "}
           <a href="https://www.credly.com/users/sridhar-nakka/badges" target="_blank" style={{color:"#2d5c9f"}}>Credly Badges</a>
         </div>
+        <div className="mt-4">
+          <a
+            href="/SridharNakka.CSD.docx"
+            download
+            className="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
+          >
+            Download Resume
+          </a>
+        </div>
+
         <section>
           <h2 style={{color:"#364f6b", borderBottom:"1px solid #e6eaf3", paddingBottom:6}}>Objective</h2>
           <p>
