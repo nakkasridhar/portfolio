@@ -10,6 +10,15 @@ export default function Portfolio() {
           <a href="mailto:nakkasridhar@gmail.com" className="mr-4">nakkasridhar@gmail.com</a>
           <a href="https://www.linkedin.com/in/sridhar-nakka-7b678217" target="_blank">LinkedIn</a>
         </div>
+        <div className="mt-4">
+          <a
+            href="/resume.pdf"
+            download
+            className="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
+          >
+            Download Resume
+          </a>
+        </div>
       </header>
 
       <section className="mb-12">
@@ -36,21 +45,21 @@ export default function Portfolio() {
         <h2 className="text-2xl font-semibold mb-4">Recent Projects</h2>
         <div className="space-y-6">
           <div>
-            <h3 className="text-xl font-semibold">Multi-Cloud Landing Zone Deployment</h3>
+            <h3 className="text-xl font-semibold">GCP Cost Optimization Automation</h3>
             <p>
-              Designed and implemented secure landing zones on AWS and Azure using Control Tower, Service Catalog, SCPs, and Terraform automation for account and policy provisioning.
+              Designed Terraform modules to identify and downscale underutilized resources across multiple GCP projects. Integrated with alerting tools and automated remediation workflows.
             </p>
           </div>
           <div>
-            <h3 className="text-xl font-semibold">Kubernetes GitOps CI/CD</h3>
+            <h3 className="text-xl font-semibold">Pega Application Deployment on Kubernetes</h3>
             <p>
-              Deployed and managed GitOps-driven CI/CD pipelines using Tekton and ArgoCD for Helm-based microservices on EKS and OpenShift, ensuring consistent releases.
+              Automated deployment of Pega applications using Helm charts and GitOps workflow with ArgoCD. Integrated with enterprise CI/CD and observability tools.
             </p>
           </div>
           <div>
-            <h3 className="text-xl font-semibold">Cloud Observability Framework</h3>
+            <h3 className="text-xl font-semibold">Multi-Cloud DevSecOps Framework</h3>
             <p>
-              Built observability platform integrating Prometheus, Grafana, ELK, and Python-based probes to improve data pipeline health monitoring and performance KPIs.
+              Implemented end-to-end CI/CD pipeline incorporating security scanning tools (SonarQube, Prisma, OWASP ZAP) across AWS, Azure, and OCI using GitHub Actions and Terraform.
             </p>
           </div>
         </div>
@@ -70,16 +79,16 @@ export default function Portfolio() {
       <section className="mb-12">
         <h2 className="text-2xl font-semibold mb-4">Professional Experience</h2>
         <p className="mb-4">
-          <strong>Wells Fargo – Sr. Infrastructure Engineer</strong><br />
-          Implemented Azure Kubernetes Services (AKS) GitOps deployment with Azure DevOps CI/CD pipeline; deployed Trend Micro security modules using Helm. Enabled HashiCorp Vault for secret management and policy enforcement using Sentinel and SCPs.
+          <strong>Brightspeed – Cloud Infra DevOps Engineer</strong><br />
+          Built and managed Kubernetes clusters on AWS using EKS and GitOps pipelines via ArgoCD. Delivered cost-effective cloud governance using Terraform and Vault.
         </p>
         <p className="mb-4">
-          <strong>Oracle Corporation – Principal Cloud Engineer</strong><br />
-          Automated OCI cloud landing zone provisioning using Terraform and Ansible. Implemented Kubernetes Helm pipeline deployments with GitHub Actions.
+          <strong>Experian – Cloud DevOps Engineer</strong><br />
+          Developed automation for infrastructure provisioning on Azure using Terraform. Implemented DevSecOps pipeline with security scanning and monitoring integrations.
         </p>
         <p className="mb-4">
-          <strong>AT&T – Cloud Engineer</strong><br />
-          Managed AWS workloads with Terraform IaC, Lambda for automation, and cost analysis with Compute Optimizer. Hardened cloud environments with Nessus and Prisma Cloud.
+          <strong>Texas Health and Human Services Commission (HHSC), TX  – Senior Consultant</strong><br />
+          Delivered end-to-end solutions for financial services using OCI native tools and Kubernetes. Built CI/CD pipelines with GitHub Actions and infrastructure automation.
         </p>
       </section>
 
