@@ -90,6 +90,24 @@ export default function Portfolio() {
         padding: "40px 32px"
       }}>
         <h1 style={{color: "#2d5c9f", fontSize: "2.4rem", letterSpacing: 1}}>Sridhar Nakka — Cloud, Infra, DevOps, SRE Portfolio</h1>
+
+        {/* Insert your image here */}
+        <div style={{textAlign: "center"}}>
+          <img
+            src="/profile-photo.jpg" // Change this path to your image file (e.g., public/profile-photo.jpg)
+            alt="Sridhar Nakka Profile"
+            style={{
+              width: 140,
+              height: 140,
+              borderRadius: "50%",
+              objectFit: "cover",
+              marginBottom: "1.2em",
+              border: "3px solid #2d5c9f",
+              boxShadow: "0 2px 8px rgba(44,92,159,0.25)"
+            }}
+          />
+        </div>
+        
         <div style={{marginBottom: "1.6em", fontSize: "1.05em", lineHeight: 1.8}}>
           <span>📱 7138947739</span> ·{" "}
           <a href="mailto:nakkasridhar@gmail.com" style={{color:"#2d5c9f"}}>nakkasridhar@gmail.com</a> ·{" "}
