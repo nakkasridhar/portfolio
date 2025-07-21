@@ -15,20 +15,20 @@ export default function Portfolio() {
       <section className="mb-12">
         <h2 className="text-2xl font-semibold mb-4">About Me</h2>
         <p>
-          I am a cloud engineering leader with over 15 years of IT experience, specializing in designing and implementing secure, scalable, and cost-efficient cloud architectures across AWS, Azure, GCP, and OCI. I hold certifications including RHCE, AWS Solutions Architect, Azure DevOps, and Google Cloud Architect. I bring a strong background in Infrastructure as Code, DevOps, CI/CD, Kubernetes, observability, and cloud-native security.
+          I am a cloud engineering and infrastructure leader with over 15 years of extensive experience in IT, delivering enterprise-grade solutions across AWS, Azure, GCP, and OCI. I have deep expertise in infrastructure design, Terraform automation, Kubernetes administration, cost optimization, security governance, CI/CD pipelines, and DevSecOps practices. My work has spanned across diverse sectors including Healthcare, Financial, Telecom, Retail, and Government.
         </p>
       </section>
 
       <section className="mb-12">
         <h2 className="text-2xl font-semibold mb-4">Core Skills</h2>
         <ul className="list-disc pl-6 space-y-1">
-          <li>Cloud Platforms: AWS, GCP, Azure, OCI</li>
-          <li>DevOps: Jenkins, GitLab CI/CD, GitHub Actions, Harness, Tekton</li>
-          <li>IaC: Terraform, CloudFormation, Azure ARM, Deployment Manager</li>
-          <li>Kubernetes: EKS, AKS, GKE, OpenShift, Helm, ACM, GitOps</li>
-          <li>Monitoring: Prometheus, Grafana, ELK, Splunk</li>
-          <li>Scripting: Python, Bash, PowerShell, Go</li>
-          <li>Security & Compliance: Nessus, TrendMicro, SCPs, Sentinel, OWASP</li>
+          <li>Cloud Platforms: AWS, Azure, GCP, OCI</li>
+          <li>Infrastructure as Code: Terraform, ARM, CloudFormation, GCP Deployment Manager</li>
+          <li>CI/CD Tools: Jenkins, Azure DevOps, GitHub Actions, Harness, Tekton</li>
+          <li>Kubernetes: EKS, AKS, GKE, OpenShift, Helm, GitOps</li>
+          <li>Security: Trend Micro, Prisma Cloud, Nessus, SCPs, Azure Policies, Sentinel</li>
+          <li>Monitoring: Prometheus, Grafana, ELK, Splunk, CloudWatch</li>
+          <li>Programming & Scripting: Python, Bash, PowerShell, Go</li>
         </ul>
       </section>
 
@@ -36,21 +36,21 @@ export default function Portfolio() {
         <h2 className="text-2xl font-semibold mb-4">Recent Projects</h2>
         <div className="space-y-6">
           <div>
-            <h3 className="text-xl font-semibold">AWS Landing Zone Automation</h3>
+            <h3 className="text-xl font-semibold">Multi-Cloud Landing Zone Deployment</h3>
             <p>
-              Designed and deployed a secure, multi-account AWS environment using AWS Control Tower, Service Catalog, and SCPs. Automated provisioning and enforced security/compliance policies.
+              Designed and implemented secure landing zones on AWS and Azure using Control Tower, Service Catalog, SCPs, and Terraform automation for account and policy provisioning.
             </p>
           </div>
           <div>
-            <h3 className="text-xl font-semibold">Kubernetes GitOps Pipeline</h3>
+            <h3 className="text-xl font-semibold">Kubernetes GitOps CI/CD</h3>
             <p>
-              Managed Helm-based Kubernetes deployments on OpenShift and EKS using Tekton pipelines integrated with GitOps workflows, reducing CI/CD latency by 40%.
+              Deployed and managed GitOps-driven CI/CD pipelines using Tekton and ArgoCD for Helm-based microservices on EKS and OpenShift, ensuring consistent releases.
             </p>
           </div>
           <div>
-            <h3 className="text-xl font-semibold">Cloud-Native Observability Framework</h3>
+            <h3 className="text-xl font-semibold">Cloud Observability Framework</h3>
             <p>
-              Built a monitoring stack using Prometheus, Grafana, and ELK integrated with Python-based observability modules for real-time data pipeline insights.
+              Built observability platform integrating Prometheus, Grafana, ELK, and Python-based probes to improve data pipeline health monitoring and performance KPIs.
             </p>
           </div>
         </div>
@@ -61,17 +61,33 @@ export default function Portfolio() {
         <ul className="list-disc pl-6 space-y-1">
           <li>Red Hat Certified Engineer (RHCE V4, V7)</li>
           <li>AWS Solutions Architect – Associate</li>
-          <li>Azure DevOps Solutions Architect (AZ-400)</li>
+          <li>Azure DevOps Engineer Expert (AZ-400)</li>
           <li>Google Cloud Professional Cloud Architect</li>
-          <li>ITIL V3 Certified</li>
+          <li>ITIL V3 Foundation Certified</li>
         </ul>
+      </section>
+
+      <section className="mb-12">
+        <h2 className="text-2xl font-semibold mb-4">Professional Experience</h2>
+        <p className="mb-4">
+          <strong>Wells Fargo – Sr. Infrastructure Engineer</strong><br />
+          Implemented Azure Kubernetes Services (AKS) GitOps deployment with Azure DevOps CI/CD pipeline; deployed Trend Micro security modules using Helm. Enabled HashiCorp Vault for secret management and policy enforcement using Sentinel and SCPs.
+        </p>
+        <p className="mb-4">
+          <strong>Oracle Corporation – Principal Cloud Engineer</strong><br />
+          Automated OCI cloud landing zone provisioning using Terraform and Ansible. Implemented Kubernetes Helm pipeline deployments with GitHub Actions.
+        </p>
+        <p className="mb-4">
+          <strong>AT&T – Cloud Engineer</strong><br />
+          Managed AWS workloads with Terraform IaC, Lambda for automation, and cost analysis with Compute Optimizer. Hardened cloud environments with Nessus and Prisma Cloud.
+        </p>
       </section>
 
       <section>
         <h2 className="text-2xl font-semibold mb-4">Contact</h2>
         <p>Email: nakkasridhar@gmail.com</p>
         <p>LinkedIn: <a className="text-blue-600" href="https://www.linkedin.com/in/sridhar-nakka-7b678217" target="_blank">Sridhar Nakka</a></p>
-        <p>GitHub: <a className="text-blue-600" href="https://github.com/nakkasridhar/portfolio" target="_blank">sridhar-nakka</a> </p>
+        <p>GitHub: <a className="text-blue-600" href="https://github.com/sridhar-nakka" target="_blank">sridhar-nakka</a> (Optional)</p>
       </section>
     </div>
   );
