@@ -10,25 +10,34 @@ export default function Portfolio() {
           <a href="mailto:nakkasridhar@gmail.com" className="mr-4">nakkasridhar@gmail.com</a>
           <a href="https://www.linkedin.com/in/sridhar-nakka-7b678217" target="_blank">LinkedIn</a>
         </div>
+        <div className="mt-4">
+          <a
+            href="/SridharNakka.CSD.docx"
+            download
+            className="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
+          >
+            Download Resume
+          </a>
+        </div>
       </header>
 
       <section className="mb-12">
         <h2 className="text-2xl font-semibold mb-4">About Me</h2>
         <p>
-          I am a cloud engineering leader with over 15 years of IT experience, specializing in designing and implementing secure, scalable, and cost-efficient cloud architectures across AWS, Azure, GCP, and OCI. I hold certifications including RHCE, AWS Solutions Architect, Azure DevOps, and Google Cloud Architect. I bring a strong background in Infrastructure as Code, DevOps, CI/CD, Kubernetes, observability, and cloud-native security.
+          I am a cloud engineering and infrastructure leader with over 15 years of extensive experience in IT, delivering enterprise-grade solutions across AWS, Azure, GCP, and OCI. I have deep expertise in infrastructure design, Terraform automation, Kubernetes administration, cost optimization, security governance, CI/CD pipelines, and DevSecOps practices. My work has spanned across diverse sectors including Healthcare, Financial, Telecom, Retail, and Government.
         </p>
       </section>
 
       <section className="mb-12">
         <h2 className="text-2xl font-semibold mb-4">Core Skills</h2>
         <ul className="list-disc pl-6 space-y-1">
-          <li>Cloud Platforms: AWS, GCP, Azure, OCI</li>
-          <li>DevOps: Jenkins, GitLab CI/CD, GitHub Actions, Harness, Tekton</li>
-          <li>IaC: Terraform, CloudFormation, Azure ARM, Deployment Manager</li>
-          <li>Kubernetes: EKS, AKS, GKE, OpenShift, Helm, ACM, GitOps</li>
-          <li>Monitoring: Prometheus, Grafana, ELK, Splunk</li>
-          <li>Scripting: Python, Bash, PowerShell, Go</li>
-          <li>Security & Compliance: Nessus, TrendMicro, SCPs, Sentinel, OWASP</li>
+          <li>Cloud Platforms: AWS, Azure, GCP, OCI</li>
+          <li>Infrastructure as Code: Terraform, ARM, CloudFormation, GCP Deployment Manager</li>
+          <li>CI/CD Tools: Jenkins, Azure DevOps, GitHub Actions, Harness, Tekton</li>
+          <li>Kubernetes: EKS, AKS, GKE, OpenShift, Helm, GitOps</li>
+          <li>Security: Trend Micro, Prisma Cloud, Nessus, SCPs, Azure Policies, Sentinel</li>
+          <li>Monitoring: Prometheus, Grafana, ELK, Splunk, CloudWatch</li>
+          <li>Programming & Scripting: Python, Bash, PowerShell, Go</li>
         </ul>
       </section>
 
@@ -36,21 +45,21 @@ export default function Portfolio() {
         <h2 className="text-2xl font-semibold mb-4">Recent Projects</h2>
         <div className="space-y-6">
           <div>
-            <h3 className="text-xl font-semibold">AWS Landing Zone Automation</h3>
+            <h3 className="text-xl font-semibold">GCP Cost Optimization Automation</h3>
             <p>
-              Designed and deployed a secure, multi-account AWS environment using AWS Control Tower, Service Catalog, and SCPs. Automated provisioning and enforced security/compliance policies.
+              Designed Terraform modules to identify and downscale underutilized resources across multiple GCP projects. Integrated with alerting tools and automated remediation workflows.
             </p>
           </div>
           <div>
-            <h3 className="text-xl font-semibold">Kubernetes GitOps Pipeline</h3>
+            <h3 className="text-xl font-semibold">Pega Application Deployment on Kubernetes</h3>
             <p>
-              Managed Helm-based Kubernetes deployments on OpenShift and EKS using Tekton pipelines integrated with GitOps workflows, reducing CI/CD latency by 40%.
+              Automated deployment of Pega applications using Helm charts and GitOps workflow with ArgoCD. Integrated with enterprise CI/CD and observability tools.
             </p>
           </div>
           <div>
-            <h3 className="text-xl font-semibold">Cloud-Native Observability Framework</h3>
+            <h3 className="text-xl font-semibold">Multi-Cloud DevSecOps Framework</h3>
             <p>
-              Built a monitoring stack using Prometheus, Grafana, and ELK integrated with Python-based observability modules for real-time data pipeline insights.
+              Implemented end-to-end CI/CD pipeline incorporating security scanning tools (SonarQube, Prisma, OWASP ZAP) across AWS, Azure, and OCI using GitHub Actions and Terraform.
             </p>
           </div>
         </div>
@@ -61,17 +70,33 @@ export default function Portfolio() {
         <ul className="list-disc pl-6 space-y-1">
           <li>Red Hat Certified Engineer (RHCE V4, V7)</li>
           <li>AWS Solutions Architect – Associate</li>
-          <li>Azure DevOps Solutions Architect (AZ-400)</li>
+          <li>Azure DevOps Engineer Expert (AZ-400)</li>
           <li>Google Cloud Professional Cloud Architect</li>
-          <li>ITIL V3 Certified</li>
+          <li>ITIL V3 Foundation Certified</li>
         </ul>
+      </section>
+
+      <section className="mb-12">
+        <h2 className="text-2xl font-semibold mb-4">Professional Experience</h2>
+        <p className="mb-4">
+          <strong>Brightspeed – Cloud Infra DevOps Engineer</strong><br />
+          Built and managed Kubernetes clusters on AWS using EKS and GitOps pipelines via ArgoCD. Delivered cost-effective cloud governance using Terraform and Vault.
+        </p>
+        <p className="mb-4">
+          <strong>Experian – Cloud DevOps Engineer</strong><br />
+          Developed automation for infrastructure provisioning on Azure using Terraform. Implemented DevSecOps pipeline with security scanning and monitoring integrations.
+        </p>
+        <p className="mb-4">
+          <strong>Texas Health and Human Services Commission (HHSC), TX  – Senior Consultant</strong><br />
+          Delivered end-to-end solutions for financial services using OCI native tools and Kubernetes. Built CI/CD pipelines with GitHub Actions and infrastructure automation.
+        </p>
       </section>
 
       <section>
         <h2 className="text-2xl font-semibold mb-4">Contact</h2>
         <p>Email: nakkasridhar@gmail.com</p>
         <p>LinkedIn: <a className="text-blue-600" href="https://www.linkedin.com/in/sridhar-nakka-7b678217" target="_blank">Sridhar Nakka</a></p>
-        <p>GitHub: <a className="text-blue-600" href="https://github.com/nakkasridhar/portfolio" target="_blank">sridhar-nakka</a> </p>
+        <p>GitHub: <a className="text-blue-600" href="https://github.com/sridhar-nakka" target="_blank">sridhar-nakka</a> </p>
       </section>
     </div>
   );
