@@ -89,7 +89,7 @@ export default function Portfolio() {
         maxWidth: 900, margin: "40px auto", background: "#fff", boxShadow: "0 3px 24px rgba(0,0,0,0.09)", borderRadius: 8,
         padding: "40px 32px"
       }}>
-        <h1 style={{color: "#2d5c9f", fontSize: "2.4rem", letterSpacing: 1}}>Sridhar Nakka-On-prem/GCP/AWS/Azure Infra DevOps Engineer/Leader</h1>
+        <h1 style={{color: "#2d5c9f", fontSize: "2.4rem", letterSpacing: 1}}>Sridhar Nakka. Platform Engineer/On-prem/GCP/AWS/Azure Infra DevOps Engineer/Leader</h1>
 
         {/* Insert your image here */}
         <div style={{textAlign: "center"}}>
